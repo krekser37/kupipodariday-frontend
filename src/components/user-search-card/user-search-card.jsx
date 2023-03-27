@@ -14,7 +14,7 @@ export const UserSearchCard = ({ name = "", img, extraClass = "" }) => {
 
   return (
     <article className={`${styles.content} ${extraClass}`}>
-      <img className={styles.img} src={img} />
+      <img className={styles.img} src={img} alt={name}/>
       <div className={`ml-10 ${styles.data_box}`}>
         <h2 className="text text_type_h2 text_color_primary mb-2">{name}</h2>
       </div>
